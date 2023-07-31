@@ -1,0 +1,55 @@
+.lista-equipamentos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-equipamentos__equipamento__inputs {
+    display: flex;
+    gap: 20px;
+}
+
+.lista-equipamentos h5 {
+    margin: 0;
+}
+
+.lista-equipamentos__equipamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: -webkit--fill-available;
+}
+
+.lista-equipamentos__equipamento__modo-edicao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-equipamentos__equipamento__botoes {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .lista-equipamentos__equipamento {
+        font-size: 14px;
+    }
+
+    .lista-equipamentos__equipamento__modo-edicao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista-equipamentos__equipamento__modo-edicao button {
+        width: -webkit-fill-available !important;
+        margin-top: 5px !important;
+    }
+
+    .lista-equipamentos__equipamento__inputs {
+        flex-direction: column;
+        gap: 5px;
+        width: -webkit-fill-available;
+    }
+}

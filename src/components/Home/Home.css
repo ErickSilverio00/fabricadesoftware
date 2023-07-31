@@ -1,0 +1,21 @@
+.eventos {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .eventos {
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .eventos {
+        margin-bottom: 100px;
+    }
+}

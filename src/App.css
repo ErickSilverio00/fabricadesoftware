@@ -1,0 +1,19 @@
+body {
+  background-image: url(../public/img/fundoFabrica.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cadastro-box__campos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.cadastro-box__botoes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}

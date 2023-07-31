@@ -1,0 +1,30 @@
+@import url(../../assets/variaveis/variaveis.css);
+
+.bloco-cadastro__box__textos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--branco);
+}
+
+.bloco-cadastro__box__titulo {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  font-family: var(--fonte) !important;
+}
+
+.bloco-cadastro__box__subtitulo {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-family: var(--fonte) !important;
+}
+
+@media screen and (max-width: 600px) {
+  .bloco-cadastro__box__titulo {
+    font-size: 24px !important;
+  }
+
+  .bloco-cadastro__box__subtitulo {
+    font-size: 14px !important;
+  }
+}

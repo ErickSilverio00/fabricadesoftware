@@ -1,0 +1,26 @@
+@import url(../../assets/variaveis/variaveis.css);
+
+.cadastro-box__campos__datas {
+    display: flex;
+    gap: 20px;
+}
+
+.cadastro-box__campos__datas > * {
+    flex: 1;
+    padding: 0 !important;
+}
+
+.cadastro-box__campos__datas__erro {
+    color: var(--vermelho);
+    margin: 0;
+}
+
+.cadastro-box__campos__escolhas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cadastro-box__campos__escolhas > * {
+    flex: 1;
+}

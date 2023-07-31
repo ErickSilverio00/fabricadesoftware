@@ -1,0 +1,145 @@
+h1,
+h4,
+p {
+  margin: 0;
+}
+
+.eventos__evento__item {
+  animation: slideInFromLeft 0.25s forwards;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.eventos__evento {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eventos__evento__data__inicio {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.eventos__evento__data__termino {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.eventos__evento__local {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.eventos__evento__colaborador {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.eventos__evento__equipamento {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.eventos__evento__observacao {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.eventos__evento__botoes {
+  display: flex;
+  gap: 20px;
+}
+
+.eventos__evento__modo-edicao {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.eventos__evento__modo-edicao h1,
+.eventos__evento__modo-edicao h4,
+.eventos__evento__modo-edicao p {
+  margin: 0;
+}
+
+.eventos__evento__modo-edicao__titulo {
+  display: flex;
+}
+
+.eventos__evento__modo-edicao__datas {
+  display: flex;
+  gap: 20px;
+}
+
+.eventos__evento__modo-edicao__datas > * {
+  flex: 1;
+  padding: 0 !important;
+}
+
+.eventos__evento__modo-edicao__datas__erro {
+  color: var(--vermelho);
+  margin: 0;
+}
+
+.eventos__evento__modo-edicao__linha3 {
+  display: flex;
+  gap: 20px;
+}
+
+.eventos__evento__modo-edicao__linha3 > * {
+  flex: 1;
+}
+
+.eventos__evento__modo-edicao__observacao {
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .eventos__evento__item {
+    width: -webkit-fill-available;
+  }
+
+  .eventos__evento__modo-edicao {
+    gap: 20px;
+  }
+
+  .eventos__evento__botoes {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .eventos__evento__modo-edicao__datas {
+    flex-direction: column;
+  }
+
+  .eventos__evento__modo-edicao__titulo {
+    width: -webkit-fill-available;
+  }
+
+  .eventos__evento__modo-edicao__datas {
+    width: -webkit-fill-available;
+  }
+
+  .eventos__evento__modo-edicao__observacao {
+    width: -webkit-fill-available;
+  }
+
+  .eventos__evento__modo-edicao__linha3 {
+    width: -webkit-fill-available;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,14 @@
+@import url(../../assets/variaveis/variaveis.css);
+
+.bloco-cadastro__box-botao {
+    border-radius: 6px !important;
+    height: 56px;
+    margin-top: 20px !important;
+    font-family: var(--fonte) !important;
+    font-weight: 600 !important;
+}
+
+.bloco-cadastro__box-botao:hover {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
+}

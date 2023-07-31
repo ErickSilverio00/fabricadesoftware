@@ -1,0 +1,55 @@
+.lista-colaboradores {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-colaboradores__colaborador__inputs {
+    display: flex;
+    gap: 20px;
+}
+
+.lista-colaboradores h5 {
+    margin: 0;
+}
+
+.lista-colaboradores__colaborador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lista-colaboradores__colaborador__modo-edicao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-colaboradores__colaborador__botoes {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .lista-colaboradores__colaborador {
+        font-size: 14px;
+    }
+
+    .lista-colaboradores__colaborador__modo-edicao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista-colaboradores__colaborador__modo-edicao button {
+        width: -webkit-fill-available !important;
+        margin-top: 5px !important;
+    }
+
+    .lista-colaboradores__colaborador__inputs {
+        flex-direction: column;
+        gap: 5px;
+        width: -webkit-fill-available;
+    }
+}
